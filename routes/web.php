@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('/strtest/index');
 });
 
-Route::get('/', function () {
+Route::get('/test', function () {
     return view('/strtest/subtest/index');
 });
 
