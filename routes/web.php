@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/strtest/index');
+    return view('home');
 });
 
-Route::get('/test', function () {
-    return view('/strtest/subtest/index');
-});
+
 
 Auth::routes();
 
