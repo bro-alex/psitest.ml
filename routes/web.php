@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('/strtest/index');
 });
 
+Route::get('/test', function () {
+    return view('/strtest/subtest/index');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
