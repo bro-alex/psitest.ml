@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('/psitest/index');
 });
 
+Route::get('/test', function () {
+    return view('/psitest/test');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
