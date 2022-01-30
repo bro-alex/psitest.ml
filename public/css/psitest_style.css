@@ -87,6 +87,24 @@ align-items: center;
     justify-content: space-between;
 }
 
+.body_top_result{
+    background-image: url("/img/plashka_result_test.png");
+    width: 1600px;
+    height: 55px;
+    margin-left: -250px;
+    display: flex;
+    align-items: center;
+
+}
+
+.body_top_result_text{
+    color: #fffffd;
+    font-family: OpenSans-Regular;
+    font-size: 25px;
+    padding-left: 300px;
+    font-weight: 700;
+}
+
 .text_top{
     font-size: 20px;
     font-weight: 800;
@@ -298,6 +316,14 @@ align-items: center;
     font-weight: 600;
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+.testall_text_travma{
+    font-size: 14px;
+}
+
+.testall_img{
+    height: 135px;
 }
 
 .footer_bottom_container_blog_container1{

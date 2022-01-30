@@ -17,7 +17,9 @@
 
 <div class="head">
         <div class="head1">
-    <form name="test">
+    <form name="test" action="{{ route('TestResult') }}" method="POST">
+    @csrf
+    <input type="hidden" name="result_user_id" value="1">
         <div class="count" style="display: flex; align-items: center;"><div class="count_text">ОСТАЛОСЬ ВОПРОСОВ: </div> <p class="tex"><img src="/img/strelka.png" alt="стрелка"> </p>
             <div id="counter" style="color: rgb(255, 255, 253); font-size: 46px; padding: 15px; font-family: OpenSans-Regular;">50
         </div></div>
@@ -92,7 +94,7 @@
         <input type="radio" name="a5" value="8" id="a48"><label for="a48" class="rad">8</label>
         <input type="radio" name="a5" value="9" id="a49"><label for="a49" class="rad">9</label>
         <input type="radio" name="a5" value="10" id="a50"><label for="a50" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ"  class="sled" onclick="check5(), count1(-5), stata1()"></div>
+        <br><input type="button" value="ДАЛЕЕ"  class="sled" onclick="check5(), count1(-5)"></div>
 
         <div class="aa6" style="display: none;">
         <p><span class="numer">1</span>Тяжело переношу критику</p>
@@ -162,7 +164,7 @@
         <input type="radio" name="a10" value="8" id="a98"><label for="a98" class="rad">8</label>
         <input type="radio" name="a10" value="9" id="a99"><label for="a99" class="rad">9</label>
         <input type="radio" name="a10" value="10" id="a100"><label for="a100" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check10(), count2(-5), stata2()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check10(), count2(-5)"></div>
 
         <div class="aa11" style="display: none;">
         <p><span class="numer">1</span>Предпочитаю не привязываться к материальным вещам, ибо они могут помешать мне убегать, когда и куда вздумается. Кажется, будто я и вправду смотрю на все материальное сверху вниз. Он редко пользуется материальными вещами для удовольствия, полагая такое удовольствие поверхностным. признаю, что деньги необходимы, но радости они мне не приносят</p>
@@ -233,7 +235,7 @@
         <input type="radio" name="b5" value="8" id="b48"><label for="b48" class="rad">8</label>
         <input type="radio" name="b5" value="9" id="b49"><label for="b49" class="rad">9</label>
         <input type="radio" name="b5" value="10" id="b50"><label for="b50" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check15(), count3(-5), statb1()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check15(), count3(-5)"></div>
 
         <div class="aa16" style="display: none;">
         <p><span class="numer">1</span>Я часто уверен, что за мной труд не за что платить много</p>
@@ -303,7 +305,7 @@
         <input type="radio" name="b10" value="8" id="b98"><label for="b98" class="rad">8</label>
         <input type="radio" name="b10" value="9" id="b99"><label for="b99" class="rad">9</label>
         <input type="radio" name="b10" value="10" id="b100"><label for="b100" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check20(), count4(-5), statb2()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check20(), count4(-5)"></div>
 
         <div class="aa21" style="display: none;">
         <p><span class="numer">1</span>Часто я склонен создавать проблемы чтобы привлечь к себе внимание, посмотрите как мне тяжело, я жертв</p>
@@ -374,7 +376,7 @@
         <input type="radio" name="c5" value="8" id="c48"><label for="c48" class="rad">8</label>
         <input type="radio" name="c5" value="9" id="c49"><label for="c49" class="rad">9</label>
         <input type="radio" name="c5" value="10" id="c50"><label for="c50" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check25(), count5(-5), statc1()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check25(), count5(-5)"></div>
 
         <div class="aa26" style="display: none;">
         <p><span class="numer">1</span>Мне сложно принимать что кто то меня не любит</p>
@@ -444,7 +446,7 @@
         <input type="radio" name="c10" value="8" id="c98"><label for="c98" class="rad">8</label>
         <input type="radio" name="c10" value="9" id="c99"><label for="c99" class="rad">9</label>
         <input type="radio" name="c10" value="10" id="c100"><label for="c100" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check30(), count6(-5), statc2()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check30(), count6(-5)"></div>
 
         <div class="aa31" style="display: none;">
         <p><span class="numer">1</span>Я часто люблю скрещивать руки на груди чтобы быть немного отстраненным</p>
@@ -514,7 +516,7 @@
         <input type="radio" name="d5" value="8" id="d48"><label for="d48" class="rad">8</label>
         <input type="radio" name="d5" value="9" id="d49"><label for="d49" class="rad">9</label>
         <input type="radio" name="d5" value="10" id="d50"><label for="d50" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check35(), count7(-5), statd1()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check35(), count7(-5)"></div>
 
         <div class="aa36" style="display: none;">
         <p><span class="numer">1</span>Самое главное для меня это заслужить</p>
@@ -584,7 +586,7 @@
         <input type="radio" name="d10" value="8" id="d98"><label for="d98" class="rad">8</label>
         <input type="radio" name="d10" value="9" id="d99"><label for="d99" class="rad">9</label>
         <input type="radio" name="d10" value="10" id="d100"><label for="d100" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check40(), count8(-5), statd2()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check40(), count8(-5)"></div>
 
         <div class="aa41" style="display: none;">
         <p><span class="numer">1</span>Не люблю никуда опаздывать и часто прихожу заранее</p>
@@ -655,7 +657,7 @@
         <input type="radio" name="e5" value="8" id="e48"><label for="e48" class="rad">8</label>
         <input type="radio" name="e5" value="9" id="e49"><label for="e49" class="rad">9</label>
         <input type="radio" name="e5" value="10" id="e50"><label for="e50" class="rad">10</label>
-        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check45(), count9(-5), state1()"></div>
+        <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check45(), count9(-5)"></div>
 
         <div class="aa46" style="display: none;">
         <p><span class="numer">1</span>Если ситуация развивается не по моему сценарию часто раздражаюсь, становлюсь агрессивным, частые проблемы с терпением и терпимостью</p>
@@ -725,9 +727,13 @@
         <input type="radio" name="e10" value="8" id="e98"><label for="e98" class="rad">8</label>
         <input type="radio" name="e10" value="9" id="e99"><label for="e99" class="rad">9</label>
         <input type="radio" name="e10" value="10" id="e100"><label for="e100" class="rad">10</label>
-        <br><input type="button" value="РЕЗУЛЬТАТ" id="button" class="sled2" onclick="check50(), state2(), testall(), check(), sendtophp()"></div>
+        <br><input type="submit" value="РЕЗУЛЬТАТ" id="button" class="sled2" onclick="check50(), testall(), check()"></div>
     </div>
    </form>
+
+
+
+
 </div>
 
 </div>
@@ -737,5 +743,11 @@
 @include('psitest.includes.footer')
 
 </div>
+<script src = "js/script.js"></script>
+
+<script src = "js/testall.js"></script>
+<script src = "js/telo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 </html>

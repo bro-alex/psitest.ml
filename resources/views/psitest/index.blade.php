@@ -23,8 +23,8 @@
         <p>где 10 означает точно про вас, 1 точно не про меня</p>
     </div></div>
     <div class="container_right">
-        <form class="form" action="subtest/register.php" method="post" name="form_register"  onsubmit="return (ValidPhone()&&ValidMail())">
-
+        <form class="form" action="{{ route('UsersResult') }}" method="POST">
+        @csrf
             <div class="name">
                 <input class="intext" type="text" name="name" required="required" placeholder="Пример: Антонина Фролова" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введите ваше имя'">
             </div>
@@ -32,7 +32,7 @@
 
 
             <div class="name">
-                <input id="phone" class="intext" type="text" name="telephone" required="required" placeholder="Пример: +79091234556" onfocus="this.value = '+'">
+                <input id="phone" class="intext" type="text" name="phone" required="required" placeholder="Пример: +79091234556" onfocus="this.value = '+'">
             </div>
 
             <div class="name">
@@ -42,7 +42,7 @@
 
             <div class="inbtn">
 
-                <input class="input" type="submit" name="btn_submit_register" value="НАЧАТЬ ТЕСТ" onClick="ValidMail(); ValidPhone()">
+                <input class="input" type="submit" name="btn_submit_register" value="НАЧАТЬ ТЕСТ">
 
             </div>
 

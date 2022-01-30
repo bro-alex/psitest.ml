@@ -21,6 +21,9 @@ Route::get('/test', function () {
     return view('/psitest/test');
 });
 
+Route::post('/', 'UsersResultController')->name('UsersResult');
+Route::post('/test', 'TestResultController')->name('TestResult');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
