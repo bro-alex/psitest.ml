@@ -19,7 +19,7 @@ class CreateResultUsersTable extends Migration
             
             $table->string('name');
             $table->string('phone');
-            $table->string('email')->unique()->nullable();
+            $table->string('email')->nullable();
  
         });
     }

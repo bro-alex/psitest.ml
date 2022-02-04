@@ -152,9 +152,22 @@ align-items: center;
     outline: none;
 }
 
+.input:hover{
+    width: 160px;
+    height: 40px;
+    color: #fffffd;
+    font-family: OpenSans-Regular;
+    font-weight: 700;
+    background-color: #f36e64;
+    border: none;
+    outline: none;
+    box-shadow: 10px 5px 5px black;
+}
+
 .inbtn{
     display: flex;
     justify-content: center;
+    
 }
 
 .body_middle{
