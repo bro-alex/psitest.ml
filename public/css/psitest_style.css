@@ -440,12 +440,12 @@ align-items: center;
     font-weight: 600;
 }
 
-@media screen and (max-width: 390px)
+@media screen and (max-width: 600px)
 {
    
 
     .header {
-        width: 390px;
+        width: 100%;
     }
 
     .header_title {
