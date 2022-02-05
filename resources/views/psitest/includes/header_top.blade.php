@@ -26,22 +26,16 @@
 
 
     <div class="header_top_mobi">
-<div class="logo">
+        <div class="header_top_mobi_wrapper1">
+            <div class="logo">
     <div><img src="/img/logo.png" alt="Логотип"></div>
 </div>
-        
-<div class="fio_container">
-<div class="fio">
-            Академия трансформации эмоциональных состояний им. Василия Корнейчука
+
+<div class="fio">Академия трансформации эмоциональных состояний и интеграции личности
+                <p class="fio_fio">по методике Василия Корнейчука</p>
         </div>
-        <div class="header_title">
-            Психотравмы диктуют сценарии нашей жизни. Мы думаем, что мы выбираем как нам поступить в конкретной ситуации, но часто ранее полученная психотравма сформировала наше мышление и пустила нашу жизнь по сценарию с негшативными последствиями
-        </div>
-    </div>
 
-
-
-        <div class="header_top_container">
+<div class="header_top_container">
 
             <div class="logo_globe">
                 <img src="/img/globe.png" alt="Логотип">
@@ -50,4 +44,18 @@
                 <img src="/img/insta.png" alt="Логотип">
             </div>
         </div>
+
+        </div>
+
+        
+        <div class="header_top_mobi_wrapper2">
+
+        <div class="header_title">
+            Психотравмы диктуют сценарии нашей жизни. Мы думаем, что мы выбираем как нам поступить в конкретной ситуации, но часто ранее полученная психотравма сформировала наше мышление и пустила нашу жизнь по сценарию с негшативными последствиями
+        </div>
+</div>
+
+
+
+        
     </div>

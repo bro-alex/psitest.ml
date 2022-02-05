@@ -470,8 +470,8 @@ align-items: center;
         font-weight: 600;
         line-height: normal;
         display: flex;
-        text-align: center;
-
+        text-align: left;
+        margin: 2%;
     }
 
     .fio_container{
@@ -485,8 +485,18 @@ align-items: center;
 
     .header_top_mobi{
         display: flex;
+        flex-direction: column;
         height: auto;
         margin-bottom: 5px;
+    }
+
+    .header_top_mobi_wrapper1{
+        display: inline-flex;
+    }
+
+    .header_top_container{
+        flex-direction: column;
+        justify-content: center;
     }
 
     .body_top {
