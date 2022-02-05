@@ -77,9 +77,8 @@
     <div class="footer_bottom_container_containerSoc_face"><img src="/img/facebook.png" alt="Facebook"></div>
     <div class="footer_bottom_container_containerSoc_youtube"><img src="/img/youtube.png" alt="Youtube"></div>
     <div class="footer_bottom_container_containerSoc_insta"><img src="/img/instagram.png" alt="Instagram"></div>
-    <div class="footer_bottom_container_containerSoc_gc"><img src="/img/soundcloud.png" alt="SoundCloud"></div>
-    <div class="footer_bottom_container_containerSoc_twitter"><img src="/img/tweet.png" alt="Tweetter"></div>
-    <div class="footer_bottom_container_containerSoc_google"><img src="/img/google.png" alt="Google"></div>
+
+    
     </div></div>
     </div>
     <div class="fotter_bottom_copyright">© Meditation, 2021. All rights reserved || Договор-оферта на оказание информационно-консультационных услуг ||

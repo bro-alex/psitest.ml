@@ -121,9 +121,10 @@ align-items: center;
 .text_bottom{
     font-size: 14px;
     padding-top: 20px;
-    line-height: 0.2;
+    line-height: 1;
     font-weight: 400;
     font-family: "OpenSans-LightItalic";
+    width: 290px;
 }
 
 .container_left{
@@ -474,10 +475,21 @@ align-items: center;
         margin: 2%;
     }
 
+    .fio_fio{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
     .fio_container{
         margin-left: 5px;
         margin-right: 5px;
     }
+
+    .input{
+        border-radius: 10px;
+    }
+
+
 
     .header_top {
         display: none
@@ -508,6 +520,9 @@ align-items: center;
     }
 
     .container_left {
+        display: flex;
+        flex-direction: column;
+        height: auto;
         margin-left: 10px;
         padding: 5%;
     }
@@ -526,6 +541,7 @@ align-items: center;
     .text_bottom {
 
         padding-top: 0px;
+        line-height: 1;
 
     }
 
@@ -570,8 +586,9 @@ align-items: center;
     }
 
     .footer_top {
-        margin-left: 10px;
-        margin-top: 20px;
+        padding: 5%;
+        margin-left: 0px;
+        margin-top: 0px;
     }
 
 
@@ -588,8 +605,13 @@ align-items: center;
     }
 
     .footer_bottom {
+        height: 600px;
         margin-left: 10px;
+        margin-top: 0px;
+    }
 
+    .footer_bottom_container1{
+        padding: 5%;
     }
 
     .footer_bottom_container_contaiters {
@@ -601,5 +623,19 @@ align-items: center;
         width: auto;
         text-align: justify;
         padding: 1%;
+        font-size: 14px;
+    }
+
+    .footer_bottom_container_contacts_telega, .footer_bottom_container_contacts_phone, .footer_bottom_container_contacts_email, .footer_bottom_container_contacts_skype{
+        margin-bottom: 0px;
+    }
+
+    .footer_bottom_container_zag1, .fotter_bottom_zag{
+        display: none;
+    }
+
+    .footer_bottom_container_zag2{
+        margin-top: 0px;
+        margin-bottom: 15px;
     }
 }
