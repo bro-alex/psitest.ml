@@ -23,3 +23,31 @@
             </div>
         </div>
     </div>
+
+
+    <div class="header_top_mobi">
+<div class="logo">
+    <div><img src="/img/logo.png" alt="Логотип"></div>
+</div>
+        
+<div class="fio_container">
+<div class="fio">
+            Академия трансформации эмоциональных состояний им. Василия Корнейчука
+        </div>
+        <div class="header_title">
+            Психотравмы диктуют сценарии нашей жизни. Мы думаем, что мы выбираем как нам поступить в конкретной ситуации, но часто ранее полученная психотравма сформировала наше мышление и пустила нашу жизнь по сценарию с негшативными последствиями
+        </div>
+    </div>
+
+
+
+        <div class="header_top_container">
+
+            <div class="logo_globe">
+                <img src="/img/globe.png" alt="Логотип">
+            </div>
+            <div class="logo_insta">
+                <img src="/img/insta.png" alt="Логотип">
+            </div>
+        </div>
+    </div>

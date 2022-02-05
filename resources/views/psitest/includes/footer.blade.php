@@ -6,6 +6,10 @@
 <div class="footer_top_container_text">
     <div class="fotter_top_contact">@korneichuk_vn</div>
     <div class="footer_top_text">Автор трансформационных практик и собственной методики трансформации психотравм. <div class="footer_top_text_1">&ensp;Подробнее об этом на моём сайте</div></div>
+
+    <div class="footer_top_text_mobi">Автор трансформационных практик и собственной методики трансформации психотравм. Подробнее об этом на моём сайте</div>
+
+
 </div>
 </div>
 <div class="footer_bottom">
