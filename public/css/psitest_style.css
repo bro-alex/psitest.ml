@@ -23,6 +23,8 @@ body{
     display: flex;
     height: 120px;
     justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .logo{
@@ -40,7 +42,11 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-    margin-right: 65px;
+    margin-right: 55px;
+}
+
+.fio_fio{
+    font-size: 10px;
 }
 
 .header_title{
@@ -113,7 +119,7 @@ align-items: center;
 }
 
 .text_bottom{
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 20px;
     line-height: 0.2;
     font-weight: 400;
@@ -199,9 +205,12 @@ align-items: center;
 }
 
 .bode_middle_unig{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-right: 70px;
     width: 300px;
-    height: 300px;
+    height: 270px;
     margin-top: 25px;
 }
 
@@ -266,6 +275,7 @@ align-items: center;
     font-family: OpenSans-Regular;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .footer_bottom{
@@ -378,6 +388,10 @@ align-items: center;
     margin-bottom: 25px;
 }
 
+.footer_bottom_container3{
+    margin-right: 150px;
+}
+
 .footer_bottom_container_contacts{
     display: flex;
     flex-direction: column;
@@ -391,7 +405,7 @@ align-items: center;
 }
 
 .footer_bottom_container2{
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .footer_bottom_container_containerSoc{
@@ -424,4 +438,45 @@ align-items: center;
     color: rgb(47, 190, 205);
     font-size: 11px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 390px)
+{
+   
+
+    .header {
+        width: 390px;
+    }
+
+    .header_title {
+        font-size: 10px;
+        font-family: "OpenSans-LightItalic";
+        color: rgb(9, 76, 84);
+        font-weight: 800;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .fio {
+        font-family: OpenSans-Regular;
+        font-size: 10px;
+        color: rgb(27, 26, 54);
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .header_top {
+        display: flex;
+        height: 120px;
+        width: 100%;
+        justify-content: space-around;
+    }
 }
