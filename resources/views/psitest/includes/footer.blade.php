@@ -51,24 +51,7 @@
     </div>--></div>
 
 
-    <div class="footer_bottom_container2">
-    <div class="footer_bottom_container_zag1">Связаться с нами</div>
-        <div class="footer_bottom_container_zag2">Контакты:</div>
-        <div class="footer_bottom_container_contacts">
-        <div class="footer_bottom_container_contacts_telega">
-        <div class="footer_bottom_container_contacts_icon"><img src="/img/telega.png" alt="Телеграмм"></div>
-        <div class="footer_bottom_container_contacts_contact">AkademiaVK</div>
-</div>
-
-<div class="footer_bottom_container_contacts_email">
-        <div class="footer_bottom_container_contacts_icon"><img src="/img/email.png" alt="Почта"></div>
-        <div class="footer_bottom_container_contacts_contact">v.korneichuk@bk.ru</div>
-</div>
-<div class="footer_bottom_container_contacts_skype">
-        <div class="footer_bottom_container_contacts_icon"><img src="/img/skype.png" alt="Skype"></div>
-        <div class="footer_bottom_container_contacts_contact">VKconsultation</div>
-</div>
-    </div></div>
+    
 
 
     <div class="footer_bottom_container_soc">
@@ -77,19 +60,21 @@
     <div class="footer_bottom_container_containerSoc_face"><img src="/img/facebook.png" alt="Facebook"></div>
     <div class="footer_bottom_container_containerSoc_youtube"><img src="/img/youtube.png" alt="Youtube"></div>
     <div class="footer_bottom_container_containerSoc_insta"><img src="/img/instagram.png" alt="Instagram"></div>
+    <div class="footer_bottom_container_containerSoc_vk"><img src="/img/vk.png" alt="VK"></div>
 
     
     </div></div>
     </div>
-    <div class="fotter_bottom_copyright">© Meditation, 2021. All rights reserved || Договор-оферта на оказание информационно-консультационных услуг ||
+    <div class="fotter_bottom_copyright">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;© Meditation, 2021. All rights reserved<br><br>
+    Договор-оферта на оказание информационно-консультационных услуг<br>
 
- Политика конфиденциальности персональных данных ||
+ Политика конфиденциальности персональных данных<br>
 
- Условия оплаты и политика возврата оплаты банковскими картами для CloudPayments ||
+ Условия оплаты и политика возврата оплаты банковскими картами для CloudPayments<br>
 
- Условия оплаты и политика возврата оплаты банковскими картами ||
+ Условия оплаты и политика возврата оплаты банковскими картами<br>
 
- Согласие на использование фото и видеоматериалов ||
+ Согласие на использование фото и видеоматериалов<br>
 
  Отказ от ответственности</div>
     
