@@ -75,7 +75,7 @@ button.new {
 
 #headTest {
     font-family: OpenSans-Regular;
-    color: rgb(117, 133, 148);
+
     font-size: 18px;
     margin-left: 250px;
 }
@@ -126,17 +126,16 @@ button.new {
 }
 
 .sled2 {
-    background-color: #9059FF;
+    background-color: rgb(243, 110, 100);
     color: aliceblue;
-    width: 130px;
-    height: 50px;
+    width: 170px;
+    height: 60px;
     margin-top: 40px;
-    font-family: ProximaNova-Extrabld;
-    font-size: 12px;
-    background-image: url(img/3.png);
-    background-repeat: no-repeat;
-    background-position: 80% center;
-    padding-right: 5%;
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 0px 36.8px 9.2px rgba(0, 0, 1, 0.09);
+    border-radius: 10px;
     border: none;
     outline: none;
 }
@@ -330,7 +329,7 @@ button.new {
 .opisglav {
     font-family: OpenSans-Regular;
     font-size: 16px;
-    color: rgb(117, 133, 148);
+
     padding-right: 15px;
     text-align: justify;
     display: flex;
@@ -487,6 +486,10 @@ padding-left: 2%;
     
 }
 
+.testall_wrapp_small:hover{
+    box-shadow: 10px 5px 5px black;
+}
+
 .testall_percent{
     font-size: 25px;
     display: flex;
@@ -526,18 +529,18 @@ padding-left: 2%;
 
     .fio {
         font-family: OpenSans-Regular;
-        font-size: 10px;
+        font-size: 18px;
         color: rgb(27, 26, 54);
-        font-weight: 600;
+        font-weight: 700;
         line-height: normal;
         display: flex;
-        text-align: left;
+        text-align: justify;
         margin: 2%;
     }
 
     .fio_fio{
-        font-size: 12px;
-        font-weight: 700;
+        font-size: 10px;
+        font-weight: 600;
     }
 
     .fio_container{
@@ -719,7 +722,7 @@ padding-left: 2%;
 
     #headTest {
         font-family: OpenSans-Regular;
-        color: rgb(117, 133, 148);
+
         font-size: 10px;
         margin-left: 0px;
         width: 100%;
@@ -766,5 +769,6 @@ padding-left: 2%;
 .testall{
     flex-wrap: wrap;
 }
+
 
 }

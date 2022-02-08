@@ -21,6 +21,12 @@
             <div class="logo_insta">
                 <img src="/img/insta.png" alt="Логотип">
             </div>
+            <div class="logo_vk">
+                <img src="/img/vk_top.png" alt="Логотип">
+            </div>
+            <div class="youtube_top">
+                <img src="/img/youtube_top.png" alt="Логотип">
+            </div>
         </div>
     </div>
 
@@ -42,6 +48,12 @@
             </div>
             <div class="logo_insta">
                 <img src="/img/insta.png" alt="Логотип">
+            </div>
+            <div class="logo_vk">
+                <img src="/img/vk_top.png" alt="Логотип">
+            </div>
+            <div class="youtube_top">
+                <img src="/img/youtube_top.png" alt="Логотип">
             </div>
         </div>
 
