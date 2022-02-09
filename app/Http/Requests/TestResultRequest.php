@@ -74,7 +74,7 @@ class TestResultRequest extends FormRequest
             'e8' => 'integer',
             'e9' => 'integer',
             'e10' => 'integer',
-            'result_user_id' => 'integer',
+            'userId' => 'integer',
         ];
     }
 }

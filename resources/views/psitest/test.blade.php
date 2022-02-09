@@ -19,7 +19,7 @@
         <div class="head1">
     <form name="test" action="{{ route('TestResult') }}" method="POST">
     @csrf
-    <input type="hidden" name="result_user_id" value="1">
+    <input type="hidden" name="userId" value="<?php echo $userId; ?>">
         <div class="count" style="display: flex; align-items: center;"><div class="count_text">ОСТАЛОСЬ ВОПРОСОВ: </div> <p class="tex"><img src="/img/strelka.png" alt="стрелка"> </p>
             <div id="counter" style="color: rgb(255, 255, 253); font-size: 46px; padding: 15px; font-family: OpenSans-Regular;">50
         </div></div>

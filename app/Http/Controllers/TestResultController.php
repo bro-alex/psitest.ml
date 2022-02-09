@@ -17,9 +17,9 @@ class TestResultController extends Controller
         $pred = $data['d1'] + $data['d2'] + $data['d3'] + $data['d4'] + $data['d5'] + $data['d6'] + $data['d7'] + $data['d8'] + $data['d9'] + $data['d10'];
         $otverg = $data['e1'] + $data['e2'] + $data['e3'] + $data['e4'] + $data['e5'] + $data['e6'] + $data['e7'] + $data['e8'] + $data['e9'] + $data['e10'];
 
-        $usersall = result_users::all();
-        $userId1 = collect($usersall)->last();
-        $userId = (int) $userId1['id'];
+//        $usersall = result_users::all();
+//        $userId1 = collect($usersall)->last();
+//        $userId = (int) $userId1['id'];
 
         TestResultes::create([
             'pok' => $pok,
@@ -27,7 +27,7 @@ class TestResultController extends Controller
             'nespr' => $nespr,
             'pred' => $pred,
             'otverg' => $otverg,
-            'result_user_id' => $userId,
+            'result_user_id' => $data['userId'],
         ]);
 
         return view('/psitest/result', compact('pok', 'unig', 'nespr', 'pred', 'otverg'));
