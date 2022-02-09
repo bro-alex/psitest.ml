@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-    margin-right: 55px;
+    margin-right: 30px;
 }
 
 .fio_fio{
@@ -58,7 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 65px;
+    margin-right: 45px;
 }
 
 .header_top_container{
@@ -66,13 +66,13 @@ body{
 align-items: center;
 }
 
-.logo_phone{
-    margin-right: 10px;
-}
-
 .logo_globe{
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.logo_insta, .logo_vk{
+    margin-right: 10px;
 }
 
 .phone{
@@ -261,7 +261,7 @@ align-items: center;
 }
 
 .body_middle_tr_text1{
-
+    color: rgb(117, 133, 148);
     font-size: 12px;
     font-family: OpenSans-Regular;
     font-weight: 600;
@@ -427,11 +427,11 @@ align-items: center;
 }
 
 .fotter_bottom_copyright{
-    margin-top: 20px;
+    margin-top: 5px;
     border-top: solid 1px;
     border-color: rgb(0, 0, 0, 0.302);
     width: 1150px;
-    height: 75px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -439,6 +439,7 @@ align-items: center;
     color: rgb(47, 190, 205);
     font-size: 11px;
     font-weight: 600;
+    padding-top: 10px;
 }
 
 .header_top_mobi, .footer_top_text_mobi {
@@ -667,5 +668,14 @@ align-items: center;
 
     .footer_bottom_container_soc{
         margin-left: 30%;
+    }
+
+    .logo_globe{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .logo_insta, .logo_vk{
+        margin-right: 0px;
     }
 }

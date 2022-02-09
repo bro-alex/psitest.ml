@@ -683,17 +683,31 @@ padding-left: 2%;
     }
 
     .fotter_bottom_copyright{
+        display: flex;
+        flex-direction: column;
         width: auto;
         text-align: justify;
         padding: 1%;
         font-size: 14px;
+        margin-top: -30px;
+        height: auto;
     }
+
+    
+.fotter_bottom_copyright_1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fotter_bottom_copyright_2{
+    font-size: 12px;
+}
 
     .footer_bottom_container_contacts_telega, .footer_bottom_container_contacts_phone, .footer_bottom_container_contacts_email, .footer_bottom_container_contacts_skype{
         margin-bottom: 0px;
     }
 
-    .footer_bottom_container_zag1, .fotter_bottom_zag{
+    .fotter_bottom_zag{
         display: none;
     }
 
@@ -770,5 +784,9 @@ padding-left: 2%;
     flex-wrap: wrap;
 }
 
+.body_top_result{
+    width: auto;
+    margin-right: -10px;
+}
 
 }
