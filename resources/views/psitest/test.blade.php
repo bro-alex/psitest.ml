@@ -111,7 +111,7 @@
         </div>
 
         <div class="aa7" style="display: none;">
-        <p><span class="numer">2</span>Тяжело дается отстаивать свои границы так как чувствую вину и стыд</p>
+        <p><span class="numer">2</span>Тяжело дается отстаивать свои границы, так как чувствую вину и стыд</p>
         <input type="radio" name="a7" value="1" id="a61"><label for="a61" class="rad">1</label>
         <input type="radio" name="a7" value="2" id="a62"><label for="a62" class="rad">2</label>
         <input type="radio" name="a7" value="3" id="a63"><label for="a63" class="rad">3</label>
@@ -125,7 +125,7 @@
         </div>
 
         <div class="aa8" style="display: none;">
-        <p><span class="numer">3</span>Часто ощущаю не свободу и желание вырваться на волю</p>
+        <p><span class="numer">3</span>Часто ощущаю несвободу и желание вырваться на волю</p>
         <input type="radio" name="a8" value="1" id="a71"><label for="a71" class="rad">1</label>
         <input type="radio" name="a8" value="2" id="a72"><label for="a72" class="rad">2</label>
         <input type="radio" name="a8" value="3" id="a73"><label for="a73" class="rad">3</label>
@@ -139,7 +139,7 @@
         </div>
 
         <div class="aa9" style="display: none;">
-        <p><span class="numer">4</span>Часто, когда ругают других чувствую виноватым себя тоже</p>
+        <p><span class="numer">4</span>Часто, когда ругают других, чувствую виноватым себя тоже</p>
         <input type="radio" name="a9" value="1" id="a81"><label for="a81" class="rad">1</label>
         <input type="radio" name="a9" value="2" id="a82"><label for="a82" class="rad">2</label>
         <input type="radio" name="a9" value="3" id="a83"><label for="a83" class="rad">3</label>
@@ -153,7 +153,7 @@
         </div>
 
         <div class="aa10" style="display: none;">
-        <p><span class="numer">5</span>Чутко реагирую на желания значимого для меня человека при этом часто игнорирую свои собственные</p>
+        <p><span class="numer">5</span>Чутко реагирую на желания значимого для меня человека, при этом часто игнорирую свои собственные</p>
         <input type="radio" name="a10" value="1" id="a91"><label for="a91" class="rad">1</label>
         <input type="radio" name="a10" value="2" id="a92"><label for="a92" class="rad">2</label>
         <input type="radio" name="a10" value="3" id="a93"><label for="a93" class="rad">3</label>
@@ -167,7 +167,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check10()"></div>
 
         <div class="aa11" style="display: none;">
-        <p><span class="numer">1</span>Предпочитаю не привязываться к материальным вещам, ибо они могут помешать мне убегать, когда и куда вздумается. Кажется, будто я и вправду смотрю на все материальное сверху вниз. Он редко пользуется материальными вещами для удовольствия, полагая такое удовольствие поверхностным. признаю, что деньги необходимы, но радости они мне не приносят</p>
+        <p><span class="numer">1</span>Предпочитаю не привязываться к материальным вещам, ибо они могут помешать мне убегать когда и куда вздумается. Кажется, будто я и вправду смотрю на все материальное сверху вниз. Редко пользуюсь материальными вещами для удовольствия, полагая такое удовольствие поверхностным. Признаю, что деньги необходимы, но радости они мне не приносят</p>
         <input type="radio" name="b1" value="1" id="b1"><label for="b1" class="rad">1</label>
         <input type="radio" name="b1" value="2" id="b2"><label for="b2" class="rad">2</label>
         <input type="radio" name="b1" value="3" id="b3"><label for="b3" class="rad">3</label>
@@ -182,7 +182,7 @@
 
 
         <div class="aa12" style="display: none;">
-        <p><span class="numer">2</span>Считаю, что должен терпеть до конца самые неприятные ситуации, словно у меня нет права дать отпор; во всяком случае, я не вижу вариантов спасени</p>
+        <p><span class="numer">2</span>Считаю, что должен терпеть до конца самые неприятные ситуации, словно у меня нет права дать отпор, во всяком случае, я не вижу вариантов спасения</p>
         <input type="radio" name="b2" value="1" id="b11"><label for="b11" class="rad">1</label>
         <input type="radio" name="b2" value="2" id="b12"><label for="b12" class="rad">2</label>
         <input type="radio" name="b2" value="3" id="b13"><label for="b13" class="rad">3</label>
@@ -224,7 +224,7 @@
         </div>
 
         <div class="aa15" style="display: none;">
-        <p><span class="numer">5</span>Я часто сравниваю себя с кем то, кто кажется лучше меня из-за чего замыкаюсь и чувствую, что из за этого меня не примут</p>
+        <p><span class="numer">5</span>Я часто сравниваю себя с кем-то, кто кажется лучше меня из-за чего замыкаюсь и чувствую, что из-за этого меня не примут</p>
         <input type="radio" name="b5" value="1" id="b41"><label for="b41" class="rad">1</label>
         <input type="radio" name="b5" value="2" id="b42"><label for="b42" class="rad">2</label>
         <input type="radio" name="b5" value="3" id="b43"><label for="b43" class="rad">3</label>
@@ -238,7 +238,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check15()"></div>
 
         <div class="aa16" style="display: none;">
-        <p><span class="numer">1</span>Я часто уверен, что за мной труд не за что платить много</p>
+        <p><span class="numer">1</span>Я часто уверен, что за мой труд не за что платить много</p>
         <input type="radio" name="b6" value="1" id="b51"><label for="b51" class="rad">1</label>
         <input type="radio" name="b6" value="2" id="b52"><label for="b52" class="rad">2</label>
         <input type="radio" name="b6" value="3" id="b53"><label for="b53" class="rad">3</label>
@@ -252,7 +252,7 @@
         </div>
 
         <div class="aa17" style="display: none;">
-        <p><span class="numer">2</span>Если мне заплатят, как мне покажется слишком много я буду чувствовать себя неуютно и спущу деньги</p>
+        <p><span class="numer">2</span>Если мне заплатят, как мне покажется, слишком много я буду чувствовать себя неуютно и спущу деньги</p>
         <input type="radio" name="b7" value="1" id="b61"><label for="b61" class="rad">1</label>
         <input type="radio" name="b7" value="2" id="b62"><label for="b62" class="rad">2</label>
         <input type="radio" name="b7" value="3" id="b63"><label for="b63" class="rad">3</label>
@@ -280,7 +280,7 @@
         </div>
 
         <div class="aa19" style="display: none;">
-        <p><span class="numer">4</span>Я знаю чего хочу, но часто не заявляю об этом так как боюсь услышать «нет»</p>
+        <p><span class="numer">4</span>Я знаю чего хочу, но часто не заявляю об этом, так как боюсь услышать «нет»</p>
         <input type="radio" name="b9" value="1" id="b81"><label for="b81" class="rad">1</label>
         <input type="radio" name="b9" value="2" id="b82"><label for="b82" class="rad">2</label>
         <input type="radio" name="b9" value="3" id="b83"><label for="b83" class="rad">3</label>
@@ -294,7 +294,7 @@
         </div>
 
         <div class="aa20" style="display: none;">
-        <p><span class="numer">5</span>Часто ощущаю, что материальное это не важно, стараюсь отстранятся от него и ставлю духовное выше, признаю деньги, но не считаю их источник удовольствия</p>
+        <p><span class="numer">5</span>Часто ощущаю, что материальное это не важно, стараюсь отстраняться от него, и ставлю духовное выше, признаю деньги, но не считаю их источником удовольствия</p>
         <input type="radio" name="b10" value="1" id="b91"><label for="b91" class="rad">1</label>
         <input type="radio" name="b10" value="2" id="b92"><label for="b92" class="rad">2</label>
         <input type="radio" name="b10" value="3" id="b93"><label for="b93" class="rad">3</label>
@@ -308,7 +308,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check20()"></div>
 
         <div class="aa21" style="display: none;">
-        <p><span class="numer">1</span>Часто я склонен создавать проблемы чтобы привлечь к себе внимание, посмотрите как мне тяжело, я жертв</p>
+        <p><span class="numer">1</span>Часто я склонен создавать проблемы, чтобы привлечь к себе внимание: "посмотрите как мне тяжело, я жертва"</p>
         <input type="radio" name="c1" value="1" id="c1"><label for="c1" class="rad">1</label>
         <input type="radio" name="c1" value="2" id="c2"><label for="c2" class="rad">2</label>
         <input type="radio" name="c1" value="3" id="c3"><label for="c3" class="rad">3</label>
@@ -323,7 +323,7 @@
 
 
         <div class="aa22" style="display: none;">
-        <p><span class="numer">2</span>Мне часто страшно делать что то в одиночку мне нужно поддержка и присутствие кого-нибудь</p>
+        <p><span class="numer">2</span>Мне часто страшно делать что-то в одиночку, мне нужна поддержка и присутствие кого-нибудь</p>
         <input type="radio" name="c2" value="1" id="c11"><label for="c11" class="rad">1</label>
         <input type="radio" name="c2" value="2" id="c12"><label for="c12" class="rad">2</label>
         <input type="radio" name="c2" value="3" id="c13"><label for="c13" class="rad">3</label>
@@ -337,7 +337,7 @@
         </div>
 
         <div class="aa23" style="display: none;">
-        <p><span class="numer">3</span>Стараюсь не замечать недостатки партнера так как боюсь что из за этого он уйдет</p>
+        <p><span class="numer">3</span>Стараюсь не замечать недостатки партнера, так как боюсь, что из-за этого он уйдет</p>
         <input type="radio" name="c3" value="1" id="c21"><label for="c21" class="rad">1</label>
         <input type="radio" name="c3" value="2" id="c22"><label for="c22" class="rad">2</label>
         <input type="radio" name="c3" value="3" id="c23"><label for="c23" class="rad">3</label>
@@ -365,7 +365,7 @@
         </div>
 
         <div class="aa25" style="display: none;">
-        <p><span class="numer">5</span>Часто открываю душу другим людям и верю что несу ответственность за их счастье</p>
+        <p><span class="numer">5</span>Часто открываю душу другим людям и верю, что несу ответственность за их счастье</p>
         <input type="radio" name="c5" value="1" id="c41"><label for="c41" class="rad">1</label>
         <input type="radio" name="c5" value="2" id="c42"><label for="c42" class="rad">2</label>
         <input type="radio" name="c5" value="3" id="c43"><label for="c43" class="rad">3</label>
@@ -379,7 +379,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check25()"></div>
 
         <div class="aa26" style="display: none;">
-        <p><span class="numer">1</span>Мне сложно принимать что кто то меня не любит</p>
+        <p><span class="numer">1</span>Мне сложно принимать, что кто-то меня не любит</p>
         <input type="radio" name="c6" value="1" id="c51"><label for="c51" class="rad">1</label>
         <input type="radio" name="c6" value="2" id="c52"><label for="c52" class="rad">2</label>
         <input type="radio" name="c6" value="3" id="c53"><label for="c53" class="rad">3</label>
@@ -407,7 +407,7 @@
         </div>
 
         <div class="aa28" style="display: none;">
-        <p><span class="numer">3</span>Боюсь изоляции в коллективе из-за чего терплю общение даже если мне оно не нравится</p>
+        <p><span class="numer">3</span>Боюсь изоляции в коллективе, из-за чего терплю общение, даже если мне оно не нравится</p>
         <input type="radio" name="c8" value="1" id="c71"><label for="c71" class="rad">1</label>
         <input type="radio" name="c8" value="2" id="c72"><label for="c72" class="rad">2</label>
         <input type="radio" name="c8" value="3" id="c73"><label for="c73" class="rad">3</label>
@@ -435,7 +435,7 @@
         </div>
 
         <div class="aa30" style="display: none;">
-        <p><span class="numer">5</span>В трудных ситуациях если мне оказывают помощь я чувствую благодарность и сильно обижаюсь если мне никто не помогает</p>
+        <p><span class="numer">5</span>Если мне оказывают помощь в трудных ситуациях, я чувствую благодарность и сильно обижаюсь, если мне никто не помогает</p>
         <input type="radio" name="c10" value="1" id="c91"><label for="c91" class="rad">1</label>
         <input type="radio" name="c10" value="2" id="c92"><label for="c92" class="rad">2</label>
         <input type="radio" name="c10" value="3" id="c93"><label for="c93" class="rad">3</label>
@@ -449,7 +449,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check30()"></div>
 
         <div class="aa31" style="display: none;">
-        <p><span class="numer">1</span>Я часто люблю скрещивать руки на груди чтобы быть немного отстраненным</p>
+        <p><span class="numer">1</span>Я часто люблю скрещивать руки на груди, чтобы быть немного отстраненным</p>
         <input type="radio" name="d1" value="1" id="d1"><label for="d1" class="rad">1</label>
         <input type="radio" name="d1" value="2" id="d2"><label for="d2" class="rad">2</label>
         <input type="radio" name="d1" value="3" id="d3"><label for="d3" class="rad">3</label>
@@ -463,7 +463,7 @@
         </div>
 
         <div class="aa32" style="display: none;">
-        <p><span class="numer">2</span>Часто добиваюсь правды и справедливости исходя из своего понимание об этом</p>
+        <p><span class="numer">2</span>Часто добиваюсь правды и справедливости, исходя из своего понимания об этом</p>
         <input type="radio" name="d2" value="1" id="d11"><label for="d11" class="rad">1</label>
         <input type="radio" name="d2" value="2" id="d12"><label for="d12" class="rad">2</label>
         <input type="radio" name="d2" value="3" id="d13"><label for="d13" class="rad">3</label>
@@ -477,7 +477,7 @@
         </div>
 
         <div class="aa33" style="display: none;">
-        <p><span class="numer">3</span>Уверен что мне часто завидуют</p>
+        <p><span class="numer">3</span>Уверен, что мне часто завидуют</p>
         <input type="radio" name="d3" value="1" id="d21"><label for="d21" class="rad">1</label>
         <input type="radio" name="d3" value="2" id="d22"><label for="d22" class="rad">2</label>
         <input type="radio" name="d3" value="3" id="d23"><label for="d23" class="rad">3</label>
@@ -491,7 +491,7 @@
         </div>
 
         <div class="aa34" style="display: none;">
-        <p><span class="numer">4</span>Не люблю отдыхать если кто то в это время работает, испытываю вину и начинаю тоже что то делать</p>
+        <p><span class="numer">4</span>Не люблю отдыхать, если кто-то в это время работает, испытываю вину и начинаю тоже что-то делать</p>
         <input type="radio" name="d4" value="1" id="d31"><label for="d31" class="rad">1</label>
         <input type="radio" name="d4" value="2" id="d32"><label for="d32" class="rad">2</label>
         <input type="radio" name="d4" value="3" id="d33"><label for="d33" class="rad">3</label>
@@ -519,7 +519,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check35()"></div>
 
         <div class="aa36" style="display: none;">
-        <p><span class="numer">1</span>Самое главное для меня это заслужить</p>
+        <p><span class="numer">1</span>Самое главное для меня - это заслужить</p>
         <input type="radio" name="d6" value="1" id="d51"><label for="d51" class="rad">1</label>
         <input type="radio" name="d6" value="2" id="d52"><label for="d52" class="rad">2</label>
         <input type="radio" name="d6" value="3" id="d53"><label for="d53" class="rad">3</label>
@@ -547,7 +547,7 @@
         </div>
 
         <div class="aa38" style="display: none;">
-        <p><span class="numer">3</span>Часто не разрешаю себе покупки особенно если кто то из близких себе в них отказывает</p>
+        <p><span class="numer">3</span>Часто не разрешаю себе покупки, особенно если кто-то из близких себе в них отказывает</p>
         <input type="radio" name="d8" value="1" id="d71"><label for="d71" class="rad">1</label>
         <input type="radio" name="d8" value="2" id="d72"><label for="d72" class="rad">2</label>
         <input type="radio" name="d8" value="3" id="d73"><label for="d73" class="rad">3</label>
@@ -561,7 +561,7 @@
         </div>
 
         <div class="aa39" style="display: none;">
-        <p><span class="numer">4</span>Стараюсь не хвастаться покупками чтобы не завидовали, часто оправдываюсь за покупки</p>
+        <p><span class="numer">4</span>Стараюсь не хвастаться покупками, чтобы не завидовали, часто оправдываюсь за покупки</p>
         <input type="radio" name="d9" value="1" id="d81"><label for="d81" class="rad">1</label>
         <input type="radio" name="d9" value="2" id="d82"><label for="d82" class="rad">2</label>
         <input type="radio" name="d9" value="3" id="d83"><label for="d83" class="rad">3</label>
@@ -575,7 +575,7 @@
         </div>
 
         <div class="aa40" style="display: none;">
-        <p><span class="numer">5</span>Не люблю когда дарят мне подарки</p>
+        <p><span class="numer">5</span>Не люблю, когда мне дарят подарки</p>
         <input type="radio" name="d10" value="1" id="d91"><label for="d91" class="rad">1</label>
         <input type="radio" name="d10" value="2" id="d92"><label for="d92" class="rad">2</label>
         <input type="radio" name="d10" value="3" id="d93"><label for="d93" class="rad">3</label>
@@ -660,7 +660,7 @@
         <br><input type="button" value="ДАЛЕЕ" class="sled" onclick="check45()"></div>
 
         <div class="aa46" style="display: none;">
-        <p><span class="numer">1</span>Если ситуация развивается не по моему сценарию часто раздражаюсь, становлюсь агрессивным, частые проблемы с терпением и терпимостью</p>
+        <p><span class="numer">1</span>Если ситуация развивается не по моему сценарию, часто раздражаюсь, становлюсь агрессивным, есть частые проблемы с терпением и терпимостью</p>
         <input type="radio" name="e6" value="1" id="e51"><label for="e51" class="rad">1</label>
         <input type="radio" name="e6" value="2" id="e52"><label for="e52" class="rad">2</label>
         <input type="radio" name="e6" value="3" id="e53"><label for="e53" class="rad">3</label>
@@ -674,7 +674,7 @@
         </div>
 
         <div class="aa47" style="display: none;">
-        <p><span class="numer">2</span>Часто мне тяжело жить в настоящем, на работе планирую отпуск в отпуске думаю о работе</p>
+        <p><span class="numer">2</span>Часто мне тяжело жить в настоящем, на работе планирую отпуск, в отпуске думаю о работе</p>
         <input type="radio" name="e7" value="1" id="e61"><label for="e61" class="rad">1</label>
         <input type="radio" name="e7" value="2" id="e62"><label for="e62" class="rad">2</label>
         <input type="radio" name="e7" value="3" id="e63"><label for="e63" class="rad">3</label>
