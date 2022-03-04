@@ -84,7 +84,7 @@
                   <tbody>
                   <tr>
                     <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                      <img src="{{ asset('dist/img/default-150x150.png') }}" alt="Product 1" class="img-circle img-size-32 mr-2">
                       Курс 1
                     </td>
                     <td>$13 USD</td>
@@ -103,7 +103,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                      <img src="{{ asset('dist/img/default-150x150.png') }}" alt="Product 1" class="img-circle img-size-32 mr-2">
                       Курск 2
                     </td>
                     <td>29 руб</td>
@@ -122,7 +122,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                      <img src="{{ asset('dist/img/default-150x150.png') }}" alt="Product 1" class="img-circle img-size-32 mr-2">
                       Популярный курс
                     </td>
                     <td>1000 руб</td>
@@ -141,7 +141,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                      <img src="{{ asset('dist/img/default-150x150.png') }}" alt="Product 1" class="img-circle img-size-32 mr-2">
                       Стандартный курс
                       <span class="badge bg-danger">NEW</span>
                     </td>

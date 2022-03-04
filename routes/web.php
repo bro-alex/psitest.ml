@@ -17,6 +17,8 @@ Route::post('/test', 'TestResultController')->name('TestResult');
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'adminka79', 'middleware' => ['auth', 'admin']], function () {
     Route::get('/', 'IndexController')->name('admin');
+    Route::get('/custumer', 'CustumerController')->name('custumer');
+    Route::delete('/custumer/{user}', 'CustumerController@delete')->name('custumer.delete');
 });
 
 Auth::routes();
