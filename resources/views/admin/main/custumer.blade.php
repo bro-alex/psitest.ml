@@ -51,7 +51,22 @@
                       <td>{{ $user->name }}</td>
                       <td>{{ $user->phone }}</td>
                       <td>{{ $user->email }}</td>
-                      <td></td>
+                      <td>
+                          @foreach ($testResultes as $result)
+                              @if ($result->result_user_id === $user->id)
+                              <div id="admin_custumer_result">Тест пройден:{{ $result->created_at }}</div>    
+                              <div>
+                                      
+                                    Пок: {{ $result->pok }}
+                                    Униж: {{ $result->unig }}
+                                    Неспр: {{ $result->nespr }}
+                                    Пред: {{ $result->pred }}
+                                    Отверг: {{ $result->otverg }}
+                                  </div>
+                                  
+                              @endif
+                          @endforeach
+                      </td>
                       <td>
                           <form action="{{ route('custumer.delete', $user->id) }}" method="post">
                               @csrf
