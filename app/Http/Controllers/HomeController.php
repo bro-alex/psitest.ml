@@ -27,6 +27,6 @@ class HomeController extends Controller
         if ((int) auth()->user()->role === User::ROLE_ADMIN){
             return view('admin.main.index');
         }
-        abort(404);
+        return view('user.main.index');
     }
 }
