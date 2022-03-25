@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.main.index');
+        if ((int) auth()->user()->role === User::ROLE_ADMIN){
+            return view('admin.main.index');
+        }
+        abort(404);
     }
 }
