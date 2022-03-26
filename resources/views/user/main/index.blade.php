@@ -28,7 +28,7 @@
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
                         <form action="{{ route('logout') }}" method="post">
                             @csrf
-                            <input class="btn btn-outline-primary" type="submit" value="Выйти">
+                            <input class="btn btn-outline-primary" type="submit" value="Выйти из юзера">
                 </form>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
