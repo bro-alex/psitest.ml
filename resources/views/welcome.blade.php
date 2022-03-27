@@ -71,7 +71,40 @@
                 </div>
             </div>
         </div>
-        <!-- Тело -->
+        <!-- /Тело -->
+
+        <!-- Баннеры -->
+        <div class="banners-wrapper">
+            <div class="banners"></div>
+        </div>
+        <!-- /Баннеры -->
+
+        <!-- Футтер -->
+        <div class="futter-wrapper">
+            <div class="futter-top-text">Здесь будет текст</div>
+            <div class="futter-navbar">
+                <a href="#">Название вкладки</a>
+                <a href="#">Название вкладки</a>
+                <a href="#">Название вкладки</a>
+                <a href="#">Название вкладки</a>
+                <a href="#">Название вкладки</a>
+            </div>
+            <div class="futter-curs-wrapper">
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+                <div class="futter-curs"></div>
+            </div>
+        </div>
+        <!-- /Футтер -->
     </div>
 </body>
 </html>

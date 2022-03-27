@@ -32,25 +32,32 @@ body{
     width: 80%;
     margin: auto;
     display: inline-flex;
-    height: 80px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header-logo-info{
     display: inline-flex;
+    align-items: center;
 }
 
 .logo{
     background-image: url("/img/glav/logo.png");
-    width: 82px;
-    height: 80px;
+    width: 162px;
+    height: 100px;
 }
 
 .info{
-    width: 334px;
-    height: 66px;
-    font-size: 15px;
+    width: 450px;
+    height: 85px;
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .info-fio{
@@ -164,6 +171,10 @@ a{
     border-radius: 50px;
 }
 
+.centr-wrapper-left-bottom-button2:hover{
+    background: #9560F4;
+}
+
 .centr-wrapper-centr{
     background-image: url("/img/glav/vasiliy.png");
     height: 617px;
@@ -172,7 +183,7 @@ a{
 
 .centr-wrapper-right{
     width: 416px;
-    height: 520px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -191,6 +202,17 @@ a{
     font-size: 14px;
     color: #7E73F5;
     margin-top: 10%;
+    margin-left: 5%;
+}
+
+.card-header-wrapper{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.card-header-reg{
+    color: #955FF3;
 }
 
 .card{
@@ -226,13 +248,12 @@ form{
     border-color: #DBDDDF;
     border-radius: 50px;
     box-shadow: inset 0px 0px 10px #C4C4C4;
-}
-
-#email{
+    font-family: Montserrat-Regular;
+    padding-left: 15px;
     margin-bottom: 5%;
 }
 
-input[type="email"]:focus-visible {
+input[type="email"]:focus{
     width: 100%;
     height: 65px;
     border-style: solid;
@@ -240,4 +261,112 @@ input[type="email"]:focus-visible {
     border-color: #DBDDDF;
     border-radius: 50px;
     box-shadow: inset 0px 0px 10px #C4C4C4;
+    font-family: Montserrat-Regular;
+}
+
+input[type="password"]:focus{
+    width: 100%;
+    height: 65px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #DBDDDF;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 10px #C4C4C4;
+    font-family: Montserrat-Regular;
+}
+
+.form-check, .submin-button-link{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submin-button-but{
+    width: 100%;
+    height: 65px;
+    font-family: Montserrat-ExtraBold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: linear-gradient(95.73deg, #5F89F5 0%, #955FF3 95.89%);
+    box-shadow: 0px 3px 0px #4834A2;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.submin-button-but:hover{
+    background: #9560F4;
+}
+
+
+.banners-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banners{
+    background-image: url("/img/glav/banners.png");
+    height: 576px;
+    width: 1298px;
+}
+
+.futter-wrapper{
+    background-image: url("/img/glav/bottom-backround.png");
+    width: 100%;
+    height: 1322px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.futter-top-text{
+    font-family: BerlingskeSerif-Bold;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.futter-navbar{
+    width: 80%;
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    font-family: Montserrat-ExtraBold;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.futter-navbar a{
+    color: #876BF4;
+    width: 220px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.futter-navbar a:hover{
+    color: #FFFFFF;
+    background-color: #876BF4;
+    border-radius: 50px;
+}
+
+.futter-curs-wrapper{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.futter-curs{
+    background-image: url("/img/glav/curs-video.png");
+    width: 320px;
+    height: 270px;
 }
