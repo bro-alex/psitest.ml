@@ -20,7 +20,8 @@
                 </div>
             </div>
             <div class="header-soc">
-                <div class="header-soc-vk"></div>
+                <a href="https://vk.com/academtesintegrio" class="header-soc-vk" target="_blanc"></a>
+                <a href="https://t.me/psyhotrauma" class="header-soc-telega" target="_blanc"></a>
             </div>
         </div>
         <!-- /Голова -->
@@ -53,7 +54,7 @@
                 <div class="centr-wrapper-left">
                     <div class="centr-wrapper-left-top">Узнай как негативные сценарии твоих психотравм портят тебе жизнь</div>
                     <div class="centr-wrapper-left-centr">
-                        <div class="centr-wrapper-left-centr-text">С помощью авторской практики трансформации и медитации</div>
+                        <div class="centr-wrapper-left-centr-text">Пройди тест - узнай какие психотравмы и негативные жизненные сценарии у тебя есть и как можно от них избавиться при помощи</div>
                         <div class="centr-wrapper-left-centr-fio">Василия Корнейчука</div>
                     </div>
                     <div class="centr-wrapper-left-bottom">
