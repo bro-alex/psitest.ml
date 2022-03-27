@@ -59,7 +59,7 @@
                     <div class="centr-wrapper-left-bottom">
                         <a href="#" class="centr-wrapper-left-bottom-button"></a>
                         <div class="centr-wrapper-left-bottom-text">Посмотрите видео-приветствие</div>
-                        <a href="#" class="centr-wrapper-left-bottom-button2">ПРОЙТИ ТЕСТ</a>
+                        <a href="{{ route('test') }}" class="centr-wrapper-left-bottom-button2">ПРОЙТИ ТЕСТ</a>
                     </div>
                 </div>
                 <div class="centr-wrapper-centr"></div>

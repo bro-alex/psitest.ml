@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/testing', function () {
     return view('/psitest/index');
-});
+})->name('test');;
 
 Route::get('/test', function () {
     return view('/psitest/test');
