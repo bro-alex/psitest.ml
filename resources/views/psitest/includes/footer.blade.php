@@ -57,10 +57,8 @@
     <div class="footer_bottom_container_soc">
     <div class="footer_bottom_container_zag1">Мы в соц. сетях:</div>
     <div class="footer_bottom_container_containerSoc">
-    <div class="footer_bottom_container_containerSoc_face"><img src="/img/facebook.png" alt="Facebook"></div>
-    <div class="footer_bottom_container_containerSoc_youtube"><img src="/img/youtube.png" alt="Youtube"></div>
-    <div class="footer_bottom_container_containerSoc_insta"><img src="/img/instagram.png" alt="Instagram"></div>
-    <div class="footer_bottom_container_containerSoc_vk"><img src="/img/vk.png" alt="VK"></div>
+    <a href="https://t.me/psyhotrauma" class="footer_bottom_container_containerSoc_face" target="_blanc"><img src="/img/telegram.png" alt="Telegram"></a>
+    <a href="https://vk.com/academtesintegrio" class="footer_bottom_container_containerSoc_vk" target="_blanc"><img src="/img/vk.png" alt="VK"></a>
 
     
     </div></div>

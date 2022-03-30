@@ -15,18 +15,15 @@
         </div>
         <div class="header_top_container">
 
-            <div class="logo_globe">
+            <a href="https://psyhotrauma.ru" class="logo_globe" target="_blanc">
                 <img src="/img/globe.png" alt="Логотип">
-            </div>
-            <div class="logo_insta">
-                <img src="/img/insta.png" alt="Логотип">
-            </div>
-            <div class="logo_vk">
+            </a>
+            <a href="https://t.me/psyhotrauma" class="logo_insta" target="_blanc">
+                <img src="/img/telega_top.png" alt="Логотип">
+            </a>
+            <a href="https://vk.com/academtesintegrio" class="logo_vk" target="_blanc">
                 <img src="/img/vk_top.png" alt="Логотип">
-            </div>
-            <div class="youtube_top">
-                <img src="/img/youtube_top.png" alt="Логотип">
-            </div>
+            </a>
         </div>
     </div>
 
