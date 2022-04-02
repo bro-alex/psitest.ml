@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Академия трансформации эмоциональных состояний и интеграции личности</title>
+    <link rel="stylesheet" href="{{ asset('css/psitest_style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
 </head>
 <body>
@@ -80,7 +81,7 @@
         </div>
         <!-- /Баннеры -->
 
-        <!-- Футтер -->
+        <!-- Блок лекций -->
         <div class="futter-wrapper">
             <div class="futter-top-text">Здесь будет текст</div>
             <div class="futter-navbar">
@@ -105,6 +106,12 @@
                 <div class="futter-curs"></div>
             </div>
         </div>
+        <!-- /Блок лекций -->
+
+        <!-- Футтер -->
+<div class="footer-bottom">
+    @include('layouts.footer')
+</div>
         <!-- /Футтер -->
     </div>
 </body>

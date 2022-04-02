@@ -377,3 +377,13 @@ input[type="password"]:focus{
     width: 320px;
     height: 270px;
 }
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    margin-left: 0;
+    width: 80%;
+}
