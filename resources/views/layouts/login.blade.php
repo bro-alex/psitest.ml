@@ -1,7 +1,7 @@
 <div class="card">
     <div class="card-header-wrapper">
         <a href="#" class="card-header">Вход</a>
-        <a href="#" class="card-header-reg">Регистрация</a>
+        <a href="#" class="card-header-reg" onclick="reg()">Регистрация</a>
     </div>
     
 

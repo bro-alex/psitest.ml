@@ -68,6 +68,7 @@
                 <div class="centr-wrapper-right">
                     <div class="centr-wrapper-right-login">
                         @include('layouts.login')
+                        @include('layouts.reg')
                     </div>
                     <a href="#" class="centr-wrapper-right-button">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ ОНЛАЙН</a>
                 </div>
@@ -114,5 +115,7 @@
 </div>
         <!-- /Футтер -->
     </div>
+
+    <script src = "js/reg-card-glav.js"></script>
 </body>
 </html>
