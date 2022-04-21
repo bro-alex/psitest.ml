@@ -32,3 +32,8 @@ Route::get('/welcome', function(){
 Route::get('/reg', function (){
     return view('/auth/register');
 });
+
+Route::group(['namespace' => 'User', 'prefix' => 'user', 'middleware' => ['auth', 'user', 'verified']], function () {
+    Route::get('/', 'IndexController')->name('user');
+    Route::get('/curses', 'CursesController')->name('curses');
+});

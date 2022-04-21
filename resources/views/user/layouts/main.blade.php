@@ -63,7 +63,7 @@
           <img src="{{ asset('img/photo.png') }}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="{{ route('admin') }}" class="d-block">{{ $name }}</a>
+          <a href="{{ route('user') }}" class="d-block">{{ $name }}</a>
         </div>
       </div>
 
@@ -76,13 +76,68 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="{{ route('custumer') }}" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-address-book"></i>
               <p>
-                Пользователи
+                Профиль
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-folder-open"></i>
+              <p>
+                Оплаченные курсы
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="{{ route('curses') }}" class="nav-link">
+              <i class="nav-icon fas fa-university"></i>
+              <p>
+                Курсы
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-user-injured"></i>
+              <p>
+                Результат теста
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-comments"></i>
+              <p>
+                Форум
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-comment-dots"></i>
+              <p>
+                Поддержка
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-coins"></i>
+              <p>
+                Донат
+              </p>
+            </a>
+          </li>
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

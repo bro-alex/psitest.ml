@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\User;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -10,14 +10,15 @@ use App\Models\TestResultes;
 use App\Models\result_users;
 use App\Models\User;
 
-class CustumerController extends BaseController{
+
+class CursesController extends BaseController{
     public function __invoke(){
         $name = auth()->user()->name;
 
         $users = result_users::all();
         $testResultes = TestResultes::all();
 
-        return view('admin.main.custumer', compact('users', 'testResultes', 'name'));
+        return view('user.main.curses', compact('users', 'testResultes', 'name'));
     }
 
     public function delete($user){
@@ -25,7 +26,7 @@ class CustumerController extends BaseController{
         $user->delete();
         $users = result_users::all();
         $testResultes = TestResultes::all();
-        return view('admin.main.custumer', compact('users', 'testResultes'));
+        return view('user.main.curses', compact('users', 'testResultes'));
     }
 
 }
