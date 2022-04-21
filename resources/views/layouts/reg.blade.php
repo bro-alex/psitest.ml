@@ -22,8 +22,15 @@
                                     </span>
                                 @enderror
                             
-                        
+                                <label for="phone" class="phone"></label>
 
+                            
+                                <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" placeholder="Ваш телефон" required autocomplete="phone">
+                                @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         
                             <label for="email" class="col-md-4 col-form-label text-md-right"></label>
 
