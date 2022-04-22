@@ -22,7 +22,7 @@
       <div class="container-fluid">
         <div class="col-6">
           
-@if (is_null($testResultes))
+@if ($testResultes)
 <div class="teatclassresult">
   @foreach ($testResultes as $result)
                       
@@ -40,7 +40,7 @@
                   @endforeach
                 </div>
 
-@else
+@elseif(is_null($testResultes))
 <div class="testdiv"><a href="{{ route('test-form') }}" target="_blanc">Пройти тест</a></div>
 
 @endif
