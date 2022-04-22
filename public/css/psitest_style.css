@@ -85,7 +85,7 @@ align-items: center;
 .body_top{
     background-image: url("/img/plashka.png");
     width: 1600px;
-    height: 200px;
+    height: 250px;
     margin-left: -250px;
     color: #fffffd;
     font-family: OpenSans-Regular;
@@ -148,8 +148,23 @@ align-items: center;
     outline: none;
 }
 
+.name-pass{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.intext-pass{
+    width: 45%;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
 .input{
-    width: 160px;
+    
     height: 40px;
     color: #fffffd;
     font-family: OpenSans-Regular;
@@ -160,7 +175,7 @@ align-items: center;
 }
 
 .input:hover{
-    width: 160px;
+    
     height: 40px;
     color: #fffffd;
     font-family: OpenSans-Regular;

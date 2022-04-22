@@ -23,7 +23,7 @@
         где 10 означает точно про вас, 1 точно не про меня
     </div></div>
     <div class="container_right">
-        <form class="form" action="{{ route('UsersResult') }}" method="POST">
+        <form class="form" action="{{ route('register') }}" method="POST">
         @csrf
             <div class="name">
                 <input class="intext" type="text" name="name" required="required" placeholder="Пример: Антонина Фролова" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введите ваше имя'">
@@ -38,11 +38,14 @@
             <div class="name">
                 <input id="email" class="intext" type="text" name="email" required="required" placeholder="Пример: name@mail.ru" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введите ваш e-mail'">
             </div>
+            <div class="name-pass">    <input id="password" type="password" class="intext-pass" name="password" required autocomplete="new-password" placeholder="Ваш пароль">
+                <input id="password-confirm" type="password" class="intext-pass" name="password_confirmation" required autocomplete="new-password" placeholder="Подтвердить пароль">
+            </div>
             <div style="margin-bottom: 3%; font-size: 12px; text-align: justify;"><input type="checkbox" checked="checked">Согласие с нашей <a href="policy.html" target="_blank">Политикой</a> защиты персональной информации</div>
 
             <div class="inbtn">
 
-                <input class="input" type="submit" name="btn_submit_register" value="НАЧАТЬ ТЕСТ">
+                <input class="input" type="submit" name="btn_submit_register" value="ЗАРЕГИСТРИРОВАТЬСЯ И НАЧАТЬ ТЕСТИРОВАНИЕ">
 
             </div>
 

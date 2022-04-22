@@ -6,14 +6,18 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use App\Models\User;
 use App\Models\TestResultes;
+use App\Models\result_users;
+use App\Models\User;
 
-class IndexController extends BaseController{
+
+class TestController extends BaseController{
     public function __invoke(){
-        $name = auth()->user()->name;
         $resultUserId = auth()->user()->id;
-        $testResultes = TestResultes::All()->where('result_user_id', '=', $resultUserId);
-        return view('user.main.index', compact('name', 'resultUserId', 'testResultes'));
+        $users = result_users::all();
+        $testResultes = TestResultes::all();
+
+        return view('psitest.test', compact('users', 'testResultes', 'resultUserId'));
     }
+
 }

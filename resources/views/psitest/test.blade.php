@@ -19,7 +19,7 @@
         <div class="head1">
     <form name="test" action="{{ route('TestResult') }}" method="POST">
     @csrf
-    <input type="hidden" name="userId" value="<?php echo $userId; ?>">
+    <input type="hidden" name="userId" value="<?php echo $resultUserId; ?>">
         <div class="count" style="display: flex; align-items: center;"><div class="count_text">ОСТАЛОСЬ ВОПРОСОВ: </div> <p class="tex"><img src="/img/strelka.png" alt="стрелка"> </p>
             <div id="counter" style="color: rgb(255, 255, 253); font-size: 46px; padding: 15px; font-family: OpenSans-Regular;">50
         </div></div>
@@ -743,10 +743,10 @@
 @include('psitest.includes.footer')
 
 </div>
-<script src = "js/script.js"></script>
+<script src = "{{ asset('js/script.js') }}"></script>
 
-<script src = "js/testall.js"></script>
-<script src = "js/telo.js"></script>
+<script src = "{{ asset('js/testall.js') }}"></script>
+<script src = "{{ asset('js/telo.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>

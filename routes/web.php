@@ -8,10 +8,6 @@ Route::get('/testing', function () {
     return view('/psitest/index');
 })->name('test');;
 
-Route::get('/test', function () {
-    return view('/psitest/test');
-});
-
 Route::post('/', 'UsersResultController')->name('UsersResult');
 Route::post('/test', 'TestResultController')->name('TestResult');
 
@@ -36,4 +32,5 @@ Route::get('/reg', function (){
 Route::group(['namespace' => 'User', 'prefix' => 'user', 'middleware' => ['auth', 'user', 'verified']], function () {
     Route::get('/', 'IndexController')->name('user');
     Route::get('/curses', 'CursesController')->name('curses');
+    Route::get('/test', 'TestController')->name('test-form');
 });

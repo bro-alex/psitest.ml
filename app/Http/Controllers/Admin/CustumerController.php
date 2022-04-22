@@ -14,7 +14,7 @@ class CustumerController extends BaseController{
     public function __invoke(){
         $name = auth()->user()->name;
 
-        $users = result_users::all();
+        $users = User::all();
         $testResultes = TestResultes::all();
 
         return view('admin.main.custumer', compact('users', 'testResultes', 'name'));
