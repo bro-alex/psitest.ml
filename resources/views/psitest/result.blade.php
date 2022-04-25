@@ -17,6 +17,7 @@
 
     <div class="body_top_result">
       <div class="body_top_result_text">Результаты теста</div>
+      <a href="{{ route('user') }}"  class="body_top_but">Личный кабинет</a>
 </div>
 
 
