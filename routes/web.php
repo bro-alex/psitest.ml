@@ -1,12 +1,13 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
 
 Route::get('/testing', function () {
     return view('/psitest/index');
-})->name('test');;
+})->name('test');
 
 Route::post('/', 'UsersResultController')->name('UsersResult');
 Route::post('/test', 'TestResultController')->name('TestResult');
