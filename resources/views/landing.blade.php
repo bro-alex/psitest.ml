@@ -48,11 +48,46 @@
     </div>
     <!-- /Тело -->
 
-    <!-- Баннеры -->
-    <div class="banners-wrapper">
-        <div class="banners"></div>
+    <!-- Что будет на курсе -->
+    <div class="kurs-wrapper">
+        <div class="kurs-zag">Что будет на курсе Эмоциональная устойчивость</div>
+        <div class="kurs-wrapper2">
+            <div class="kurs-wrapper2-text-wrap">
+                <div class="kurs-wrapper2-text-wrap-zag">4 урока, 10 упражнений, медитации в аудиоформате, удобная платформа для обучения</div>
+                <div class="kurs-wrapper2-text-wrap-spis">
+                    <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок№1</div> Эмоции и Ощущения</div>
+<div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок№2</div> Фундамент личности</div>
+<div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №3</div> Внутренняя борьба</div>
+<div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №4</div> Как управлять Эмоциями</div>
+<div class="kurs-wrapper2-text-wrap-spis-2">
+
+    - Прокрастинации </br>
+
+
+    - Лени</br>
+
+
+    - Выученной беспомощности</br>
+
+
+    - Хочу-Надо</br>
+
+
+    - Подавленных эмоций</br>
+
+
+    - Незавершенных дел</br>
+</div>
+
+
+
+                    </br>
+                </div>
+                </div>
+            <div class="kurs-wrapper2-img"></div>
+        </div>
     </div>
-    <!-- /Баннеры -->
+    <!-- /Что будет на курсе -->
 
     <!-- Блок лекций -->
     <div class="futter-wrapper">
