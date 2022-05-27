@@ -9,6 +9,10 @@ Route::get('/testing', function () {
     return view('/psitest/index');
 })->name('test');
 
+Route::get('/landing', function () {
+    return view('/landing');
+})->name('landing');
+
 Route::post('/', 'UsersResultController')->name('UsersResult');
 Route::post('/test', 'TestResultController')->name('TestResult');
 

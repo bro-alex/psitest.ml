@@ -1,0 +1,13 @@
+.centr-wrapper{
+    justify-content: space-around;
+}
+
+.centr-wrapper-right{
+    width: 50%;
+ height: auto;
+    margin-top: 3%;
+}
+
+.centr-wrapper-right-button{
+    margin-left: 0%;
+}
