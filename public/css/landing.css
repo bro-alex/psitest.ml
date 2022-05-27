@@ -11,3 +11,10 @@
 .centr-wrapper-right-button{
     margin-left: 0%;
 }
+
+.centr-wrapper-right-text-top{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Montserrat-ExtraBold;
+    font-size: 30px;
+}

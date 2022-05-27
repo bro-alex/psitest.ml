@@ -35,6 +35,7 @@
             <div class="centr-wrapper-centr"></div>
             <div class="centr-wrapper-right">
                 <div class="centr-wrapper-right-login">
+                    <div class="centr-wrapper-right-text-top">Курс Эмоциональная устойчивость</div>
                     <video class="video" width="100%" height="100%" controls="controls" poster="/img/start.jpg">
                         <source src="video/start.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 
