@@ -88,3 +88,9 @@ flex-direction: column;
 .futter-wrapper{
     height: auto;
 }
+
+.footer{
+    height: auto;
+    margin-bottom: 2%;
+    background-image: url(/img/glav/body-centr-background.png);
+}

@@ -128,7 +128,26 @@
 
     <!-- Футтер -->
     <div class="footer-bottom">
-        @include('layouts.footer')
+        <div class="footer">
+
+            <div class="footer_bottom">
+
+
+                <div class="fotter_bottom_copyright"><div class="fotter_bottom_copyright_1">© Meditation, 2021. All rights reserved</div>
+                    <div class="fotter_bottom_copyright_2">Договор-оферта на оказание информационно-консультационных услуг<br>
+
+                        Политика конфиденциальности персональных данных<br>
+
+                        Условия оплаты и политика возврата оплаты банковскими картами для CloudPayments<br>
+
+                        Условия оплаты и политика возврата оплаты банковскими картами<br>
+
+                        Согласие на использование фото и видеоматериалов<br>
+
+                        Отказ от ответственности</div></div>
+
+            </div>
+        </div>
     </div>
     <!-- /Футтер -->
 </div>
