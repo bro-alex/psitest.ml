@@ -12,6 +12,11 @@
     margin-left: 0%;
 }
 
+.centr-wrapper-right-button:hover{
+    background-color: #7E73F5;
+    color: white;
+}
+
 .centr-wrapper-right-text-top, .kurs-zag{
     text-align: center;
     margin-bottom: 5%;
@@ -104,14 +109,50 @@ flex-direction: column;
 }
 
 .chto-2{
-    width: 300px;
+    width: 430px;
     height: auto;
+
+}
+
+.futter-curs-wr-kl{
+    height: 50px;
+    width: 60px;
+    background-image: url(/img/klak.png);
+    background-repeat: no-repeat;
+}
+
+.chto-3-img-obl-wr{
+    display: inline-flex;
+    align-items: center;
+}
+
+.chto-3-img-obl-wr-wr{
+    display: flex;
+    flex-direction: column;
+}
+
+.chto-3-img-obl{
+    height: 35px;
+    width: 60px;
+    background-image: url(/img/obl-sin.png);
+    background-repeat: no-repeat;
+}
+
+.futter-curs-wr-tx{
+    width: 400px;
+
+}
+
+.futter-curs-wr-wr{
+    display: inline-flex;
 }
 
 .chto-3{
     display: inline-flex;
     width: 80%;
     height: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .chto-3-img{
@@ -119,4 +160,19 @@ flex-direction: column;
 width: 230px;
     background-image: url(/img/cel.png);
     margin-right: 3%;
+    background-repeat: no-repeat;
+}
+
+.poche-1-img{
+    height: 200px;
+    width: 300px;
+    background-image: url(/img/books.png);
+    margin-left: 3%;
+    background-repeat: no-repeat;
+}
+
+.header{
+    height: auto;
+    margin-top: 0;
+    background-image: url(/img/top-land.png);
 }
