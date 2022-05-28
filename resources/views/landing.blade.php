@@ -35,14 +35,14 @@
             <div class="centr-wrapper-centr"></div>
             <div class="centr-wrapper-right">
                 <div class="centr-wrapper-right-login">
-                    <div class="centr-wrapper-right-text-top">Курс Эмоциональная устойчивость</div>
+                    <div class="centr-wrapper-right-text-top">КУРС "ЭМОЦИОНАЛЬНАЯ УСТОЙЧИВОСТЬ"</div>
                     <video class="video" width="100%" height="100%" controls="controls" poster="/img/start.jpg">
                         <source src="video/start.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 
                     </video>
 
                 </div>
-                <a href="https://psyhotrauma.autoweboffice.ru/?r=ordering/cart/as1&id=1&clean=true&lg=ru" class="centr-wrapper-right-button">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ ОНЛАЙН</a>
+                <a href="https://psyhotrauma.autoweboffice.ru/?r=ordering/cart/as1&id=1&clean=true&lg=ru" class="centr-wrapper-right-button">ЗАПИСАТЬСЯ НА КУРС</a>
             </div>
         </div>
     </div>
@@ -50,15 +50,19 @@
 
     <!-- Что будет на курсе -->
     <div class="kurs-wrapper">
-        <div class="kurs-zag">Что будет на курсе Эмоциональная устойчивость</div>
+        <div class="kurs-zag">Что будет на курсе "Эмоциональная устойчивость"</div>
         <div class="kurs-wrapper2">
             <div class="kurs-wrapper2-text-wrap">
-                <div class="kurs-wrapper2-text-wrap-zag">4 урока, 10 упражнений, медитации в аудиоформате, удобная платформа для обучения</div>
+                <div class="kurs-wrapper2-text-wrap-zag">- 4 урока</br>
+                    - 10 упражнений</br>
+                    - медитации в аудиоформате</br>
+                    - удобная платформа для обучения</div>
                 <div class="kurs-wrapper2-text-wrap-spis">
-                    <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок№1</div> Эмоции и Ощущения</div>
-<div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок№2</div> Фундамент личности</div>
+                    <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №1</div> Эмоции и Ощущения</div>
+<div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №2</div> Фундамент личности</div>
 <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №3</div> Внутренняя борьба</div>
 <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Урок №4</div> Как управлять Эмоциями</div>
+                    <div class="kurs-wrapper2-text-wrap-spis-1"><div class="urok">Отдельно выделены упражнения на проработку:</div></div>
 <div class="kurs-wrapper2-text-wrap-spis-2">
 
     - Прокрастинации </br>
@@ -91,27 +95,33 @@
 
     <!-- Блок лекций -->
     <div class="futter-wrapper">
-        <div class="futter-top-text">Здесь будет текст</div>
-        <div class="futter-navbar">
-            <a href="#">Название вкладки</a>
-            <a href="#">Название вкладки</a>
-            <a href="#">Название вкладки</a>
-            <a href="#">Название вкладки</a>
-            <a href="#">Название вкладки</a>
-        </div>
+        <div class="futter-top-text">Для кого курс "Эмоциональная устойчивость" ?</div>
+
         <div class="futter-curs-wrapper">
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
-            <div class="futter-curs"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="futter-curs-wr">1. Для тех кто хотел бы разобраться со своими эмоциями и состояниями</div>
+            <div class="futter-curs-wr">2. Кому важно понять как работают эмоции, что лежит в основе управления своими эмоциями</div>
+            <div class="futter-curs-wr">3. Кто хочет по настоящему ощущать себя свободным и кому надоело быть рабом своих эмоций и эмоциональных состояний</div>
+            <div class="futter-curs-wr">4. Кому надоело стесняться, бояться, испытывать тревогу, стыд, вину, кто не умеет справляться со своим гневом и злостью, кого душит обида</div>
+            <div class="futter-curs-wr">5. Кто впервые знаком со мной и не был у меня на консультациях</div>
+            <div class="futter-curs-wr">6. Те кто были у меня на консультациях со многими вещами будут знакомы, но тут много добавлено ежедневных практик, которые помогут усилить вашу практику</div>
+
         </div>
     </div>
     <!-- /Блок лекций -->

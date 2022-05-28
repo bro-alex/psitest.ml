@@ -25,6 +25,7 @@ flex-direction: column;
     width: 80%;
     margin: auto;
     justify-content: space-between;
+    margin-top: 7%;
 }
 
 .kurs-wrapper2{
@@ -47,9 +48,8 @@ flex-direction: column;
 
 .kurs-wrapper2-text-wrap-zag{
     font-family: BerlingskeSerif-Bold;
-    text-align: center;
     margin-bottom: 5%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .kurs-wrapper2-text-wrap-spis{
@@ -68,4 +68,23 @@ flex-direction: column;
 
 .kurs-wrapper2-text-wrap-spis-2{
     margin-left: 16%;
+}
+
+.futter-top-text {
+    padding-top: 5%;
+}
+
+.futter-curs-wr{
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+    padding: 1%;
+}
+
+.futter-curs-wrapper {
+    margin-bottom: 5%;
+}
+
+.futter-wrapper{
+    height: auto;
 }
