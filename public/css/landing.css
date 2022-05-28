@@ -15,7 +15,7 @@
 .centr-wrapper-right-text-top, .kurs-zag{
     text-align: center;
     margin-bottom: 5%;
-    font-family: Montserrat-ExtraBold;
+    font-family: BerlingskeSerif-Bold;
     font-size: 30px;
 }
 
@@ -49,11 +49,12 @@ flex-direction: column;
 .kurs-wrapper2-text-wrap-zag{
     font-family: BerlingskeSerif-Bold;
     margin-bottom: 5%;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .kurs-wrapper2-text-wrap-spis{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .kurs-wrapper2-text-wrap-spis-1{
@@ -91,6 +92,31 @@ flex-direction: column;
 
 .footer{
     height: auto;
+    margin-bottom: 0;
+    background-image: url(/img/footer-land.png);
+}
+
+.chto{
+    padding-top: 1px;
+}
+.chto-1{
     margin-bottom: 2%;
-    background-image: url(/img/glav/body-centr-background.png);
+}
+
+.chto-2{
+    width: 300px;
+    height: auto;
+}
+
+.chto-3{
+    display: inline-flex;
+    width: 80%;
+    height: auto;
+}
+
+.chto-3-img{
+    height: 189px;
+width: 230px;
+    background-image: url(/img/cel.png);
+    margin-right: 3%;
 }
