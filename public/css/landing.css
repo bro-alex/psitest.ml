@@ -196,3 +196,35 @@ width: 200px;
     text-align: center;
     font-size: 18px;
 }
+
+.korobka{
+    display: inline-flex;
+    width: 80%;
+}
+
+.korobka-text {
+    display: flex;
+    padding: 1%;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.korobka-cena{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration-line: line-through;
+    font-size: 50px;
+    color: red;
+    font-family: Montserrat-ExtraBold;
+}
+
+.new{
+    color: blueviolet;
+    font-size: 80px;
+    text-decoration-line: none;
+}
+
+.btn-b{
+    margin-top: 10px;
+}
