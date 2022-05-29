@@ -79,7 +79,9 @@
                         Как управлять Эмоциями
                     </div>
                     <div class="kurs-wrapper2-text-wrap-spis-1">
-                        <div class="urok">БОНУС: Отдельно выделены упражнения на проработку:</div>
+                        <div class="urok">
+                        <div class="bonus">БОНУС</div>
+                        <div class="urok-l">отдельно выделены упражнения на проработку</div></div>
                     </div>
                     <div class="kurs-wrapper2-text-wrap-spis-2">
 

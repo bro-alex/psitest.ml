@@ -186,3 +186,13 @@ width: 200px;
     margin-top: 0;
     background-image: url(/img/top-land.png);
 }
+
+.bonus{
+    text-align: center;
+}
+
+.urok-l{
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}
