@@ -228,3 +228,16 @@ width: 200px;
 .btn-b{
     margin-top: 10px;
 }
+
+
+.niz{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.niz-soc{
+    margin-right: 3%;
+    font-size: 25px;
+}
