@@ -78,11 +78,12 @@ flex-direction: column;
 
 .futter-top-text {
     padding-top: 5%;
+    margin-bottom: 30px;
 }
 
 .futter-curs-wr{
     width: 200px;
-    height: 100px;
+    height: auto;
     text-align: justify;
     padding: 1%;
 }
@@ -93,6 +94,8 @@ flex-direction: column;
 
 .futter-wrapper{
     height: auto;
+    background-repeat: no-repeat;
+    background-image: url(/img/glav/bottom-backround-2.png);
 }
 
 .footer{
@@ -126,9 +129,14 @@ flex-direction: column;
     align-items: center;
 }
 
+.wr-img{
+    margin-top: 2%;
+}
+
 .chto-3-img-obl-wr-wr{
     display: flex;
     flex-direction: column;
+    margin-left: -30px;
 }
 
 .chto-3-img-obl{
@@ -145,6 +153,7 @@ flex-direction: column;
 
 .futter-curs-wr-wr{
     display: inline-flex;
+    margin-bottom: 2%;
 }
 
 .chto-3{
@@ -161,6 +170,7 @@ width: 230px;
     background-image: url(/img/cel.png);
     margin-right: 3%;
     background-repeat: no-repeat;
+    margin-top: -200px;
 }
 
 .poche-1-img{
