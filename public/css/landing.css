@@ -166,11 +166,11 @@ flex-direction: column;
 
 .chto-3-img{
     height: 189px;
-width: 230px;
+width: 200px;
     background-image: url(/img/cel.png);
     margin-right: 3%;
     background-repeat: no-repeat;
-    margin-top: -200px;
+    margin-top: -250px;
 }
 
 .poche-1-img{
