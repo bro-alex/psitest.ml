@@ -243,6 +243,10 @@ width: 200px;
 
 @media screen and (max-width: 600px){
 
+    .kurs-wrapper2-img{
+        display: none;
+    }
+
     .logo {
         background-image: url(/img/glav/logo-mal.png);
         background-repeat: no-repeat;
