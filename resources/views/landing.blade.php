@@ -209,40 +209,40 @@
                     не
                     смогут вас выбить из колеи. </br><b>Вы сможете:</b></p>
                 <div class="chto-3-img-obl-wr wr-img">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     адекватно реагировать
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     чувствовать свою
 
                     "незацепляемость"
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     научитесь не убегать от своих эмоций а спокойно смотреть им в глаза и адекватно
                     действовать
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     ваши эмоции не будут вас сбивать с верного пути
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     эмоции станут для вас настоящими
                     друзьями которые помогут вам в вашей жизни
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     как побочный эффект у вас будет развиваться интуиция и вы
                     научитесь видеть и понимать других людей лучше
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     почувствуете внутреннее раскрепощение и станете свободнее себя чувствовать
                 </div>
                 <div class="chto-3-img-obl-wr">
-                    <div class="chto-3-img-obl"></div>
+                    <div class="chto-3-img-obl"><img src="/img/obl-sin.png" align="centr" alt="коробка"></div>
                     гнев, обиду и злость научитесь перехватывать на подлете и не давать вам наломать дров о которых
                     потом
                     будете сожалеть

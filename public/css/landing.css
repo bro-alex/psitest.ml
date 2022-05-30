@@ -142,13 +142,12 @@ flex-direction: column;
 .chto-3-img-obl{
     height: 35px;
     width: 60px;
-    background-image: url(/img/obl-sin.png);
+   // background-image: url(/img/obl-sin.png);
     background-repeat: no-repeat;
 }
 
 .futter-curs-wr-tx{
     width: 400px;
-
 }
 
 .futter-curs-wr-wr{
@@ -240,4 +239,236 @@ width: 200px;
 .niz-soc{
     margin-right: 3%;
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px){
+
+    .logo {
+        background-image: url(/img/glav/logo-mal.png);
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 63px;
+    }
+    .info{
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .info-fio {
+        font-size: 12px;
+    }
+
+    .centr-wrapper-right {
+        width: 99%;
+    }
+
+    .futter-curs-wr {
+        width: 80%;
+    }
+
+    .centr-wrapper{
+        flex-direction: column;
+    }
+
+    .centr-wrapper{
+        height: auto;
+    }
+
+    .futter-top-text{
+        text-align: center;
+    }
+
+    .chto-3-img {
+        margin-left: -30px;
+        width: 280px;
+        background-image: none;
+        height: 119px;
+    }
+
+    .chto, .chto-3, .futter-curs-wrapper, .kurs-wrapper, .header, .centr-wrapper{
+        width: 95%;
+    }
+
+    .new {
+        color: blueviolet;
+        font-size: 70px;
+    }
+
+    .niz-soc {
+        font-size: 20px;
+    }
+
+    .futter-curs-wr-tx, .chto-2, .kurs-wrapper2-text-wrap{
+        width: 95%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+    .fotter_bottom_copyright{
+        width: 100%;
+    }
+
+    .footer_bottom{
+        margin-left: 0px;
+        height: 200px;
+    }
+
+
+    .chto-3-img-obl-wr {
+        margin-bottom: 5%;
+    }
+    .korobka{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .futter-curs-wrapper{
+        justify-content: space-around;
+    }
+
+    .kurs-wrapper2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap{
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap-spis{
+        margin-bottom: 5%;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 820px){
+    .info{
+        width: 80%;
+    }
+
+    .centr-wrapper{
+        flex-direction: column;
+    }
+
+    .centr-wrapper{
+        height: auto;
+    }
+
+    .futter-top-text{
+        text-align: center;
+    }
+
+    .chto-3-img {
+        margin-left: -30px;
+        width: 280px;
+    }
+
+    .chto, .chto-3, .futter-curs-wrapper, .kurs-wrapper, .header, .centr-wrapper{
+        width: 95%;
+    }
+
+    .futter-curs-wr-tx, .chto-2, .kurs-wrapper2-text-wrap{
+        width: 95%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+    .fotter_bottom_copyright{
+        width: 100%;
+    }
+
+    .footer_bottom{
+        margin-left: 0px;
+        height: 400px;
+    }
+
+    .korobka{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chto, .chto-3, .futter-curs-wrapper, .kurs-wrapper, .header, .centr-wrapper{
+        width: 90%;
+    }
+
+    .futter-curs-wrapper{
+        justify-content: space-around;
+    }
+
+    .chto-3-img{
+        background-image: url(/img/cel-mal.png);
+        height: 119px;
+    }
+
+    .kurs-wrapper2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap{
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap-spis{
+        margin-bottom: 5%;
+    }
+
+   }
+
+@media screen and (min-width: 820px) and (max-width: 1200px){
+
+    .footer{
+        width: 100%;
+    }
+
+    .fotter_bottom_copyright{
+        width: 100%;
+    }
+
+    .footer_bottom{
+        margin-left: 0px;
+    }
+
+    .korobka{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chto, .chto-3, .futter-curs-wrapper, .kurs-wrapper, .header, .centr-wrapper{
+        width: 90%;
+    }
+
+    .futter-curs-wrapper{
+        justify-content: space-around;
+    }
+
+    .chto-3-img{
+        background-image: url(/img/cel-mal.png);
+        height: 119px;
+    }
+
+    .kurs-wrapper2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap{
+        align-items: center;
+    }
+
+    .kurs-wrapper2-text-wrap-spis{
+        margin-bottom: 5%;
+    }
+
 }
