@@ -36,7 +36,7 @@
             <div class="centr-wrapper-centr"></div>
             <div class="centr-wrapper-right">
                 <div class="centr-wrapper-right-login">
-                    <div class="centr-wrapper-right-text-top">КУРС "ЭМОЦИОНАЛЬНАЯ УСТОЙЧИВОСТЬ"</div>
+                    <div class="centr-wrapper-right-text-top">КУРС "ЭМОЦИОНАЛЬНОЕ БЛАГОПОЛУЧИЕ"</div>
                     <video class="video" width="100%" height="100%" controls="controls" poster="/img/start.jpg">
                         <source src="video/start.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 
@@ -52,7 +52,7 @@
 
     <!-- Что будет на курсе -->
     <div class="kurs-wrapper">
-        <div class="kurs-zag">Что будет на курсе "Эмоциональная устойчивость"</div>
+        <div class="kurs-zag">Что будет на курсе "Эмоциональное благополучие"</div>
         <div class="kurs-wrapper2">
             <div class="kurs-wrapper2-text-wrap">
                 <div class="kurs-wrapper2-text-wrap-zag">- 4 урока</br>
@@ -116,7 +116,7 @@
     <!-- Блок лекций -->
     <div class="futter-wrapper">
         <!-- Для кого -->
-        <div class="futter-top-text">Для кого курс "Эмоциональная устойчивость" ?</div>
+        <div class="futter-top-text">Для кого курс "Эмоциональное благополучие" ?</div>
 
         <div class="futter-curs-wrapper">
             <div class="futter-curs-wr"><img src="/img/chel-2.png" align="centr" alt="человек">1. Для тех кто хотел бы
@@ -203,7 +203,7 @@
         <div class="futter-curs-wr chto-3">
             <div class="chto-3-img"></div>
             <div class="chto-3-img-obl-wr-wr"><p>
-                    Пройдя курс <b>"Эмоциональная устойчивость"</b> вы сделаете первый шаг в формировании вашей
+                    Пройдя курс <b>"Эмоциональное благополучие"</b> вы сделаете первый шаг в формировании вашей
                     резильентности -
                     психологической упругости, устойчивости. Когда ни токсичные люди ни плохие или даже ужасные события
                     не
@@ -265,7 +265,7 @@
                 эмоции возникают в более древних слоях мозга и получить к ним доступ просто так не получится. Необходимо
                 научиться особому состоянию при котором это возможно, а значит нужна практика.
             </div>
-            <div class="futter-curs-wr chto-2">Курс <b>"Эмоциональная устойчивость"</b> построена прежде всего на
+            <div class="futter-curs-wr chto-2">Курс <b>"Эмоциональное благополучие"</b> построена прежде всего на
                 практических
                 упражнениях, которые проверены на людях и доказали свою эффективность на протяжении 15 лет моей
                 практики.
@@ -284,7 +284,7 @@
 
         <!-- /Почему -->
         <!-- Коробка -->
-        <div class="futter-top-text chto">Сколько стоит курс "Эмоциональная устойчивость" и сколько он длится?</div>
+        <div class="futter-top-text chto">Сколько стоит курс "Эмоциональное благополучие" и сколько он длится?</div>
 
         <div class="korobka">
             <div class="korobka-img"><img src="/img/korob.jpg" align="centr" alt="коробка"></div>
@@ -304,8 +304,8 @@
                     стрессовыми ситуациями.</p>
 
             </div>
-                <div class="korobka-cena">7800 руб</div>
-        <div class="korobka-cena new">4900 руб</div>
+              <!--  <div class="korobka-cena">7800 руб</div> -->
+        <div class="korobka-cena new">7800 руб</div>
         <a href="https://psyhotrauma.autoweboffice.ru/?r=ordering/cart/as1&id=1&clean=true&lg=ru"
            class="centr-wrapper-right-button btn-b">ЗАПИСАТЬСЯ НА КУРС</a>
 

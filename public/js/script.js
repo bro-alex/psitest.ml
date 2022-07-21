@@ -4,24 +4,24 @@ function check(){
         c = parseInt(document.test.c1.value) + parseInt(document.test.c2.value) + parseInt(document.test.c3.value) + parseInt(document.test.c4.value) + parseInt(document.test.c5.value) + parseInt(document.test.c6.value) + parseInt(document.test.c7.value) + parseInt(document.test.c8.value) + parseInt(document.test.c9.value) + parseInt(document.test.c10.value);
         d = parseInt(document.test.d1.value) + parseInt(document.test.d2.value) + parseInt(document.test.d3.value) + parseInt(document.test.d4.value) + parseInt(document.test.d5.value) + parseInt(document.test.d6.value) + parseInt(document.test.d7.value) + parseInt(document.test.d8.value) + parseInt(document.test.d9.value) + parseInt(document.test.d10.value);
         e = parseInt(document.test.e1.value) + parseInt(document.test.e2.value) + parseInt(document.test.e3.value) + parseInt(document.test.e4.value) + parseInt(document.test.e5.value) + parseInt(document.test.e6.value) + parseInt(document.test.e7.value) + parseInt(document.test.e8.value) + parseInt(document.test.e9.value) + parseInt(document.test.e10.value);
-        
+
         var i = parseInt(document.test.e6.value)
         var f = parseInt(document.test.e7.value)
         var j = parseInt(document.test.e8.value)
         var g = parseInt(document.test.e9.value)
         var r = parseInt(document.test.e10.value)
 
-        
+
         if(i > 0 && f > 0 && j > 0 && g > 0 && r > 0){
             document.getElementsByClassName('resultall')[0].style.display='flex';
             document.getElementsByClassName('topText')[0].style.display='none';
             document.getElementsByClassName('topText2')[0].style.display='flex';
             document.getElementsByClassName('head')[0].style.display='none';
-            
+
         }
     }
 
-    
+
 
     function check5(){
         var a = parseInt(document.test.a1.value)
@@ -243,7 +243,7 @@ function check(){
             document.getElementsByClassName('aa49')[0].style.display='none';
             document.getElementsByClassName('aa50')[0].style.display='none';
             document.getElementsByClassName('count')[0].style.display='none';
-            
+
         }else{
             alert("Вы ответили не на Все вопросы!");
         }
